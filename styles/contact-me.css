@@ -43,7 +43,7 @@ textarea{
   border-width: 3px;
 }
 
-input[type=submit]{
+button{
   color: lightgreen;
   background-color: black;
   border-color: lightgreen;
