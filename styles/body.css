@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  color: lightgreen;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.body-area{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 20px;
+}
+
+.picture{
+  width: 311.75ch;
+  margin-left: 20px;
+  font-size: 1pt;
+  letter-spacing: 0.25ch;
+  align-items: center;  
+  padding-left: 60px;
+}
+
+.meta-data{
+  border-left-width: 3px;
+  border-left-color: lightgreen;
+  border-left-style: dashed;
+  padding-left: 40px;
+}
+
+.download-resume{
+  text-align: center;
+}
+
+.download-resume:hover{
+  opacity: .75;
+  cursor: default;
+  text-decoration: underline;
+}
+
+.download-resume:active{
+  opacity: .25;
+}

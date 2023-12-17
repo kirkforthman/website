@@ -1,0 +1,50 @@
+#blink{
+  animation-name: blink;
+  animation-duration: .65s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  0% {color: lightgreen; opacity: 1;}
+  50% {color: lightgreen; opacity: .15;}
+  100% {color: lightgreen; opacity: 1;}
+}
+
+blink{
+  color: lightgreen;
+  font-size: 12px;
+}
+
+.top-bar{
+  font-family: 'Courier New', Courier, monospace;
+  color: lightgreen;
+  display: flex;
+  align-items: center;
+  max-height: 100px;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-top-color: lightgreen;
+  border-top-width: 3px;
+  border-top-style: dashed;
+  border-bottom-color: lightgreen;
+  border-bottom-width: 3px;
+  border-bottom-style: dashed;
+}
+
+.home-link:hover, .resume:hover, .projects:hover, .contact-me:hover{
+  opacity: .75;
+  cursor: default;
+  text-decoration: underline;
+}
+
+.home-link:active, .resume:active, .projects:active, .contact-me:active {
+  opacity: .25;
+}
+
+
+a{
+  color: lightgreen;
+  text-decoration: none;
+}

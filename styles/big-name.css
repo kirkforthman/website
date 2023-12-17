@@ -1,0 +1,30 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+  color: lightgreen;
+  background-color: black;
+}
+
+.large-name{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.first-name-title{
+  min-width: 52ch;
+  max-width: 52ch;
+  font-size: 5pt;
+  margin-right: 10px;
+}
+
+.last-name-title{
+  min-width: 104ch;
+  max-width: 104ch;
+  font-size: 5pt;
+  margin-left: 10px;
+}
+
+.email, .phone-num, .resume-section-title{
+  text-align: center;
+}
+
