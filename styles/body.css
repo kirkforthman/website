@@ -6,11 +6,7 @@ body {
   padding-right: 20px;
 }
 
-.body-area{
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  margin-top: 20px;
-}
+
 
 .picture{
   width: 311.75ch;
@@ -21,12 +17,7 @@ body {
   padding-left: 60px;
 }
 
-.meta-data{
-  border-left-width: 3px;
-  border-left-color: lightgreen;
-  border-left-style: dashed;
-  padding-left: 40px;
-}
+
 
 .download-resume{
   text-align: center;
