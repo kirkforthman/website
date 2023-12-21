@@ -6,13 +6,12 @@ $message = $_POST["message"];
 
 $from= $name." // ".$email;
 
+$to = "kirkforthman@gmail.com";
+$subject = "New Message from Personal Site";
+$body = "Name: ".$name."\r\nEmail: ".$email."\r\nMessage: ".$message;
 
-try {
-  mail("kirkforthman@gmail.com", "Message from Personal Site", $message, $from);
-} catch(Exception $e){
-  echo "Something Went Wrong";
-}
+mail($to, $subject, $body, $from);
 
-echo "email sent";
+header("Location:index.html");
 
 ?>
