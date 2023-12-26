@@ -33,13 +33,13 @@ blink{
   border-bottom-style: dashed;
 }
 
-.home-link:hover, .resume:hover, .projects:hover, .contact-me:hover{
+.home-link:hover, .resume:hover, .projects:hover, .contact-me:hover, .page-link:hover{
   opacity: .75;
   cursor: default;
   text-decoration: underline;
 }
 
-.home-link:active, .resume:active, .projects:active, .contact-me:active {
+.home-link:active, .resume:active, .projects:active, .contact-me:active, .page-link:active {
   opacity: .25;
 }
 
